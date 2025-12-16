@@ -1,0 +1,11 @@
+# Enterprise Screen Recorder Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core recording dependencies
+dxcam>=0.4.0          # DirectX screen capture (fast, low CPU)
+opencv-python>=4.8.0  # Video encoding and processing
+numpy>=1.24.0         # Array operations for motion detection
+psutil>=5.9.0         # Process management for watchdog
+
+# Optional but recommended
+pywin32>=306          # For process protection (ACL)
